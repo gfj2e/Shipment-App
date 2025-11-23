@@ -205,7 +205,7 @@ def get_suppliers():
             "data": items
         }
         
-        return jsonify(response), 200
+        return jsonify(response), 201
     except Exception as e:
         mysql.rollback()
         response = {
