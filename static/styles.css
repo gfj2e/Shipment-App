@@ -1,0 +1,122 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background: linear-gradient(135deg, #af1e31 0%, #c93c11 100%);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 15px 15px 0 0 !important;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #cb111a 0%, #a53c12 100%);
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #bd0b23 0%, #812424 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e0e0e0;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(38, 117, 252, 0.25);
+    border-color: #d43216;
+}
+
+.result-box {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-left: 4px solid #cf3115;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.table thead th {
+    background-color: #c92b16;
+    color: white;
+    border: none;
+    padding: 1rem;
+}
+
+.table tbody td {
+    padding: 1rem;
+    border-color: #f0f0f0;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.badge-success {
+    background-color: #28a745;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.section-title {
+    color: #d81313;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, #cc0c15 0%, #af441a 100%);
+    border-radius: 3px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    text-align: center;
+}
